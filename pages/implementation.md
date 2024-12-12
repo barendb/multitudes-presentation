@@ -17,6 +17,18 @@ The above requirements needed more upfront investigation/thinking
   - Avoid breaking changes - property renaming, property deletion
   - Adopt a widening schema change process
 
+<style>
+h1 {
+  background-color: #6dd8aa;
+  background-image: linear-gradient(45deg, #45CD93 10%, #6dd8aa80 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
+
 ---
 transition: fade-out
 ---
@@ -33,6 +45,18 @@ Wanted to use an ORM Library that will provide the following
 ### Lukily this exists
 
 [TypeORM](https://typeorm.io/) is a very flexible well maintained ORM Library
+
+<style>
+h1 {
+  background-color: #6dd8aa;
+  background-image: linear-gradient(45deg, #45CD93 10%, #6dd8aa80 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
 
 ---
 transition: fade-out
@@ -62,6 +86,18 @@ export class {{snake_to_pascal schemaName}} {
 }
 ```
 
+<style>
+h1 {
+  background-color: #6dd8aa;
+  background-image: linear-gradient(45deg, #45CD93 10%, #6dd8aa80 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
+
 ---
 transition: fade-out
 ---
@@ -79,6 +115,18 @@ This meant the overall implementation was very light touch
 
 <img border="rounded" src="../assets/imp_1.png" />
 
+<style>
+h1 {
+  background-color: #6dd8aa;
+  background-image: linear-gradient(45deg, #45CD93 10%, #6dd8aa80 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
+
 ---
 transition: fade-out
 ---
@@ -93,6 +141,18 @@ transition: fade-out
 
 _process was enforced by code reviews, high degree of trust in team_
 
+<style>
+h1 {
+  background-color: #6dd8aa;
+  background-image: linear-gradient(45deg, #45CD93 10%, #6dd8aa80 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
+
 ---
 transition: fade-out
 ---
@@ -104,3 +164,15 @@ transition: fade-out
 - CI Build process will verify that all DDB/RDS entity changes are checked in
 - CI Build process will verify that any DDB entity changes have an accompanying RDS migration
 - CD Will automatically run migrations
+
+<style>
+h1 {
+  background-color: #6dd8aa;
+  background-image: linear-gradient(45deg, #45CD93 10%, #6dd8aa80 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
